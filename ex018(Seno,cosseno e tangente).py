@@ -1,0 +1,11 @@
+print('='*20, 'DESAFIO 18', '='*20)
+print('')
+from math import sin, cos, tan, radians
+angulo = float(input('Valor do ângulo: '))
+seno = sin(radians(angulo))
+cosseno = cos(radians(angulo))
+tangente = tan(radians(angulo))
+print('')
+print('_'*17)
+print('Seno: {:.2f} \nCosseno: {:.2f} \nTangente: {:.2f}'.format(seno, cosseno, tangente))
+print('_'*17)

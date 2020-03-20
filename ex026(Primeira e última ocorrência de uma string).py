@@ -1,0 +1,8 @@
+print('='*20, 'DESAFIO 26', '='*20, '\n')
+f = input('Digite uma frase: ').strip().upper()
+f0 = f.replace('Á','A')  
+f1 = f0.replace('Ã','A')
+frase = f1.replace('Â','A')
+print('A letra "A" apareceu {} vezes na frase.'.format(frase.count('A')))
+print('A primeira letra "A" apareceu na posição {}.'.format(frase.find('A')+1))
+print('A última letra "A" apareceu na posição {}.'.format(frase.rfind('A')+1))
