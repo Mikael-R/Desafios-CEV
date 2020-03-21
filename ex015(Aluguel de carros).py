@@ -1,0 +1,6 @@
+print('='*20, 'DESAFIO 5', '='*20)
+print('')
+dia = int(input('Dias alugados: '))
+km = float(input('Km rodados: '))
+valor = (dia*60) + (km*0.15)
+print('O valor do aluguel é de R${}!'.format(valor))
